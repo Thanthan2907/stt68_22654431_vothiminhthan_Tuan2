@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px auto;
+        }
+       .Wrapper {
+        height: 600px;
+        width: 900px;
+        background-color: rgb(245, 243, 241);
+        box-sizing: border-box;
+       }
+       header{
+        height: 150px;
+        width: 900px;
+        position: relative;
+       }
+       nav{
+        height: 40px;
+        width: 900px;
+        background-color: rgb(187, 184, 181);
+       }
+       #content {
+        height: 370px;
+        width: 900px;
+       
+       }
+       footer{
+        height: 40px;
+        width: 900px;
+        background-color: rgb(187, 184, 181);
+        float: bottom;
+       }
+       #ct1{
+        height: 370px;
+        width: 700px;
+        float: left;
+       }
+       #ct2{
+        height: 370px;
+        width: 200px;
+        float: left;
+    
+       }
+       #ac1{
+        height: 370px;
+        width: 700px;
+        float: left;
+       }
+       #ac2{
+        height: 370px;
+        width: 700px;
+
+        float: left;
+       }
+       #se1{
+        height:370px;
+        width: 200px;
+        float: left;
+       }
+       #se2{
+        height: 370px;
+        width: 200px;
+        float: left;
+       }
+       header h1{
+            position:relative
+            top:10px;
+            left: 100px;
+            object-fit: cover;
+       }
+
+        .background-image {
+        width: 900px;
+        height: 150px;
+        object-fit: cover;
+        }
+
+        .overlay-image {
+        position: absolute;
+        top: 150px;
+        left: 150px;
+        transform: translate(-100%, -36%);
+        width: 150px; 
+        height: 150px;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="Wrapper">
+        <header> 
+            <br><br>
+            <h1 class="text">YOKO'S KITCHEN<br></h1>
+            <h3 class="text">JAPANESE COOKING CLASSES</h3> 
+            <div>
+                <img src="background.png" alt="Background Image" class="background-image">
+            <img src="logo.png" alt="Overlay Image" class="overlay-image">
+            </div>
+            
+        </header>
+        
+        <nav> 
+          
+        </nav>
+        <div id="content">
+            <section id="ct1">
+                <article id="ac1"> article 1 </article>
+                <article id="ac2"> article 2 </article>
+            </section>
+            <aside id="ct2">
+                <section id="se1"> 
+                    <h3 style="color:rgb(244, 3, 128);">Popular Recipies</h3><br>
+                    <h style="color:rgb(244, 3, 128);">Yakitori (grilled chicken)</h><br><hr>
+                    <h style="color:rgb(244, 3, 128);">Tsukune (minced chicken patties)</h><hr>
+                    <h style="color:rgb(244, 3, 128);">Okonomiyaki (savory pancakes)</h><hr>
+                    <h style="color:rgb(244, 3, 128);">Mizutaki (chicken stew)</h><hr><br>
+                    
+                    </section>
+                <section id="se2">
+                    <h3 style="color:rgb(244, 3, 128);">Contact</h3><br>
+                    Yoko's Kitchen<br>
+                    27 Redchurch Street<br>
+                    Shoreditch<br>
+                    London E2 7DP</p> 
+                </section>
+            </aside>
+        </div>
+        <footer> footer </footer>
+    </div>
+</body>
+</html>
